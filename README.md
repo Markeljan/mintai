@@ -1,23 +1,22 @@
-This is a minimal version of [`Vercel AI Chatbot`](https://github.com/vercel/ai-chatbot) updated to Next 13.5.
+# Mintai
 
-- removed database, auth, chat history
-
+Mintbase template with stabiulity.ai minting
 
 ## Getting Started
 
-First, add your ```OPENAI_API_KEY``` to .env.local:
+First, add necessary environment variables.
 
+Next, create a contract on testnet.mintbase.xya
+
+Deploy a proxy minter contract using this repo:
+[mintbase/minsta-contract](https://github.com/Mintbase/minsta-contract)
+
+Finally, add the proxy contract as a minter on your Mintbase dashboard.
 
 Run the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
 pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
