@@ -16,6 +16,8 @@ Deploy a proxy minter contract using this repo:
 
 Finally, add the proxy contract as a minter on your Mintbase dashboard.
 
+**Note  if deploying to prod this requires pro or higher on vercel to support serverless funcitons > 15 seconds 
+
 Run the development server:
 
 ```bash
