@@ -2,6 +2,9 @@
 
 Mintbase template with to generate Stability.ai images and mint them to Near instantly.
 
+<img width="900" alt="image" src="https://github.com/Markeljan/mintai/assets/12901349/eb061e45-04b6-4cd6-bb1e-7f5c1f7f39ac">
+
+
 ## Getting Started
 
 First, add necessary environment variables.
