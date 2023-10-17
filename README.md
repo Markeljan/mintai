@@ -9,7 +9,7 @@ Mintbase template with to generate Stability.ai images and mint them to Near ins
 
 First, add necessary environment variables.
 
-Next, create a contract on testnet.mintbase.xya
+Next, create a contract on testnet.mintbase.xyz
 
 Deploy a proxy minter contract using this repo:
 [mintbase/minsta-contract](https://github.com/Mintbase/minsta-contract)
