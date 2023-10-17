@@ -8,7 +8,7 @@ import { cn } from '@/lib/utils'
 import { Providers } from '@/lib/providers/providers'
 import { Header } from '@/components/header'
 
-const APP_URL = new URL(process.env.NEXT_PUBLIC_APP_URL || 'https://mintai.vercel.ai')
+const APP_URL = new URL(process.env.NEXT_PUBLIC_APP_URL || 'https://mintai.vercel.app')
 
 export const metadata: Metadata = {
   metadataBase: APP_URL,

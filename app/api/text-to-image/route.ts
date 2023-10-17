@@ -56,8 +56,8 @@ export async function POST(req: Request) {
     const { id } = await uploadFile(imageFile);
     const imageUrl = `https://arweave.net/${id}`
     const refObject = {
-        title: text.substring(0, 20),
-        description: text.substring(0, 60),
+        title: text.text.substring(0, 20),
+        description: text.text.substring(0, 60),
         media: imageUrl,
     };
 

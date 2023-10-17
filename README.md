@@ -1,6 +1,6 @@
 # Mintai
 
-Mintbase template with stabiulity.ai minting
+Mintbase template with to generate Stability.ai images and mint them to Near instantly.
 
 ## Getting Started
 
