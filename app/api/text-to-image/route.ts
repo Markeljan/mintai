@@ -1,8 +1,6 @@
 import { uploadFile } from "@mintbase-js/storage/lib/uploads";
 import { File } from 'nft.storage';
 
-export const runtime = 'edge'
-
 interface GenerationResponse {
     artifacts: Array<{
         base64: string;
