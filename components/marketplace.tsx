@@ -8,7 +8,7 @@ import { FeedScroll } from "@/components/feed-scroll";
 import { MemoizedImageThumb } from "@/lib/data/image-thumb";
 import { useBlockedNfts } from "@/lib/hooks/use-blocked-nfts";
 
-export const HomePage = () => {
+export const Marketplace = () => {
     const { newToken, tokensFetched, isLoading } = useFirstToken();
 
     const { blockedNfts } = useBlockedNfts();
@@ -35,7 +35,7 @@ export const HomePage = () => {
     return (
         <>
             <main className="px-4 lg:px-12 mx-auto flex flex-col items-center justify-center space-y-4 ">
-                <DynamicGrid mdCols={2} nColsXl={4} nColsXXl={6}>
+                <DynamicGrid mdCols={2} nColsXl={2} nColsXXl={2}>
                     {!newToken?.media || isLoading ? (
                         <div
                             className="md:aspect-square rounded overflow-x-hidden cursor-pointer sm:w-full md:w-72 h-72 xl:w-80 xl:h-80 relative"

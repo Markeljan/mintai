@@ -1,5 +1,5 @@
 {
-  "name": "minimal-chatbot",
+  "name": "mintai",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mintbase-js/react": "0.4.1-beta.6-prerelease",
+    "@mintbase-js/storage": "0.4.1-beta.6-prerelease",
+    "@mintbase-js/wallet": "0.4.1-feat-add-wallet-package-4fa7700.0.0",
+    "@near-wallet-selector/default-wallets": "8.1.4",
+    "@near-wallet-selector/modal-ui": "^8.2.1",
     "@radix-ui/react-separator": "^1.0.3",
     "@radix-ui/react-slot": "^1.0.2",
     "@radix-ui/react-tooltip": "^1.0.7",
@@ -20,6 +25,8 @@
     "lucide-react": "^0.279.0",
     "next": "^13.5.3",
     "next-themes": "^0.2.1",
+    "nft.storage": "^7.1.1",
+    "openai": "^4.12.3",
     "openai-edge": "^1.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -39,6 +46,7 @@
     "@types/react-dom": "^18.2.8",
     "@types/react-syntax-highlighter": "^15.5.7",
     "autoprefixer": "^10.4.16",
+    "encoding": "^0.1.13",
     "eslint": "^8.50.0",
     "eslint-config-next": "^13.5.3",
     "postcss": "^8.4.31",

@@ -5,6 +5,7 @@ import { constants } from "@/lib/constants";
 
 import Image from "next/image";
 import Link from "next/link";
+import { Button } from "@/components/ui/button";
 
 const ImageThumb = ({ token, index }: any) => {
     const imageUrl = token?.media;
@@ -28,7 +29,7 @@ const ImageThumb = ({ token, index }: any) => {
 
     if (imageUrl) {
         return (
-            <div className=" aspect-square  sm:w-full md:w-72 h-72 xl:w-80 xl:h-80 relative">
+            <div className="aspect-square  sm:w-full md:w-72 h-72 xl:w-80 xl:h-80 relative">
                 <Link
                     key={`${token?.metadata_id}-${index}`}
                     href={`${constants.mintbaseBaseUrl}/meta/${token?.metadata_id}`}
@@ -48,8 +49,8 @@ const ImageThumb = ({ token, index }: any) => {
                         onError={handleError}
                         placeholder="empty"
                     />
-                    <button
-                        className="absolute top-3 right-3 bg-black text-white rounded p-1 text-xs px-2 py-1.5"
+                    <Button
+                        className="absolute top-3"
                         onClick={(e) => {
                             e.preventDefault();
                             window.open(
@@ -59,7 +60,7 @@ const ImageThumb = ({ token, index }: any) => {
                         }}
                     >
                         Share
-                    </button>
+                    </Button>
                 </Link>
             </div>
         );

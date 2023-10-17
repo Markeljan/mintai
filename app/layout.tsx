@@ -8,12 +8,12 @@ import { cn } from '@/lib/utils'
 import { Providers } from '@/lib/providers/providers'
 import { Header } from '@/components/header'
 
-const APP_URL = new URL(process.env.NEXT_PUBLIC_APP_URL || 'https://chat.vercel.ai')
+const APP_URL = new URL(process.env.NEXT_PUBLIC_APP_URL || 'https://mintai.vercel.ai')
 
 export const metadata: Metadata = {
   metadataBase: APP_URL,
-  title: 'AI Chatbot',
-  description: 'AI Chatbot built with Next.js, Vercel AI, shadcn.',
+  title: 'mintAI',
+  description: 'mintAI powered by Mintbase.xyz',
   themeColor: [
     { media: '(prefers-color-scheme: light)', color: 'white' },
     { media: '(prefers-color-scheme: dark)', color: 'black' }
@@ -24,14 +24,14 @@ export const metadata: Metadata = {
     apple: '/apple-touch-icon.png'
   },
   openGraph: {
-    title: 'AI Chatbot',
-    description: 'AI Chatbot built with Next.js, Vercel AI, shadcn.',
+    title: 'mintAI',
+    description: 'mintAI powered by Mintbase.xyz',
     url: APP_URL,
-    siteName: 'AI Chatbot',
+    siteName: 'mintAI',
     images: [
       {
         url: (APP_URL + '/opengraph-image.png'),
-        alt: 'AI Chatbot',
+        alt: 'mintAI',
         width: 1686,
         height: 882,
       },
@@ -40,13 +40,13 @@ export const metadata: Metadata = {
     type: 'website',
   },
   twitter: {
-    title: 'AI Chatbot',
-    description: 'AI Chatbot built with Next.js, Vercel AI, shadcn.',
+    title: 'mintAI',
+    description: 'mintAI powered by Mintbase.xyz',
     site: APP_URL.toString(),
     images: [
       {
         url: (APP_URL + '/twitter-image.png'),
-        alt: 'AI Chatbot',
+        alt: 'mintAI',
         width: 1686,
         height: 882,
       },
